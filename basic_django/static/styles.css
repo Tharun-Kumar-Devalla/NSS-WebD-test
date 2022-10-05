@@ -1,0 +1,51 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+}
+   
+
+.navlink {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	color: #666;
+	padding: 42px 16px;
+	text-decoration: none;
+	float: right;
+}
+
+#logo{
+	float: left;
+	height: 100px;
+	width: 101px;
+}
+
+
+
+.button{
+	height: 100px;
+	width: 150px;
+	background-color: #000;
+	display:block;
+}
+
+.maincontent{
+	text-decoration: none;
+	color:#fff;
+}
+
+footer{
+	background-color: #000;
+ 	color:#fff;
+ 	font-size:14px;
+	float: bottom;
+}
+
+#foot{
+	width:90%;
+ 	margin:auto;
+ 	overflow:hidden;
+}

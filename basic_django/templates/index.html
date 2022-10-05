@@ -1,0 +1,56 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>NSS WebD Qualifier task</title>
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
+	</head>
+
+	<body>
+	   <div style=" height:120px; width:95%; margin-top: 10px; margin-left: 30px;">
+		 <a href = "{% url 'template1' %}" id="logo">
+			 <img src="{% static 'NSS.png' %}">
+		 </a>
+		 <h2 style="float:left; margin-left:20px; margin-top:39px;">
+			 NSS, IIT GUWAHATI
+		 </h2>
+		 <nav>
+				<a class="navlink" href = "{% url 'template3' %}">View 3</a>
+				<a class="navlink" href = "{% url 'template2' %}">View 2</a>
+				<a class="navlink" href = "{% url 'template1' %}">View 1</a>
+		 </nav>
+		</div>
+
+		<!-- Link to template 1 -->
+	  <div style="margin-top: 145px; margin-bottom: 145px;">
+		<center>
+		<button class="button" style=" margin-bottom: 40px;">
+			<h1 style="margin-top:30px;">
+				<a class="maincontent" href = "{% url Var1 %}">
+					{{Variable1}}
+				</a>
+			</h1>
+		</button>
+
+		<!-- Link to template 2 -->
+		<button class="button">
+			<h1>
+				<a class="maincontent" href = "{% url Var2 %}">
+					{{Variable2}}
+				</a>
+			</h1>
+		</button>
+	   </center>
+	  </div>
+	  <footer>
+		  <div id="foot">
+			 <center>
+  			     <p>Copyright © Tharun Kumar Devalla. All Rights Reserved | Contact : +91 7989520835</p>
+		     </center>
+		  </div>  
+	  </footer>
+	</body>
+
+</html>
